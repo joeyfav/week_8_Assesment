@@ -17,7 +17,7 @@ const game = () => {
 
 				const movesLeft = document.querySelector('.movesleft'); 
 				moves++; 
-				movesLeft.innerText = `Moves Left: ${10-moves}`; 
+				movesLeft.innerText = `Moves Left: ${7-moves}`; 
 				
 
 				const choiceNumber = Math.floor(Math.random()*3); 
@@ -30,7 +30,7 @@ const game = () => {
 		
 	} 
 
-	// Function to decide winner 
+
 	const winner = (player,computer) => { 
 		const result = document.querySelector('.result'); 
 		const playerScoreBoard = document.querySelector('.p-count'); 
